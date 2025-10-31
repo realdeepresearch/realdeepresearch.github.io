@@ -1,0 +1,118 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Robotic Hand Hardware & Sensing",
+        "subcategories": [
+          {
+            "id": "1.1",
+            "name": "Anthropomorphic Hand Design & Actuation",
+            "what_is_covered": "Low-cost, 3-D-printed and open-source mechanical designs that mimic human hands.",
+            "typical_examples": "Affordable anthropomorphic robotic hands; 3D-printed actuation mechanisms; Open-source dexterous manipulation",
+            "cluster": "cluster_12_abstracts.json"
+          },
+          {
+            "id": "1.2",
+            "name": "Multimodal Tactile & Proprioceptive Sensing",
+            "what_is_covered": "Integration of tactile, force, EMG and proprioceptive sensors to improve manipulation feedback.",
+            "typical_examples": "Multimodal tactile sensing; Proprioceptive and EMG sensing",
+            "cluster": "cluster_6_abstracts.json"
+          },
+          {
+            "id": "1.3",
+            "name": "Specialized Deformable Object Manipulation",
+            "what_is_covered": "Hardware adaptations and sensing for handling cables, cloth and other deformable items.",
+            "typical_examples": "Dexterous hand control; Deformable cable manipulation",
+            "cluster": "cluster_9_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Data Resources & Benchmarking",
+        "subcategories": [
+          {
+            "id": "2.1",
+            "name": "Grasp & Manipulation Datasets",
+            "what_is_covered": "Large-scale recording of hand–object interactions for training and evaluation.",
+            "typical_examples": "Large-scale grasp datasets; Dexterous manipulation datasets; Hand–object interaction",
+            "cluster": "cluster_0_abstracts.json, cluster_10_abstracts.json"
+          },
+          {
+            "id": "2.2",
+            "name": "Imitation & Synthetic Data Generation",
+            "what_is_covered": "Creating human-like demonstrations and simulated data to expand coverage.",
+            "typical_examples": "Large-scale imitation datasets; Synthetic data generation",
+            "cluster": "cluster_13_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Learning & Control Algorithms",
+        "subcategories": [
+          {
+            "id": "3.1",
+            "name": "Generative & Diffusion Models",
+            "what_is_covered": "Using generative learning (e.g., diffusion) to predict stable grasps and motions.",
+            "typical_examples": "Diffusion models; Generative learning methods; Task-oriented affordances",
+            "cluster": "cluster_1_abstracts.json"
+          },
+          {
+            "id": "3.2",
+            "name": "Reinforcement Learning for Complex Manipulation",
+            "what_is_covered": "RL strategies for grasping, non-prehensile tasks and sample-efficient training.",
+            "typical_examples": "Reinforcement learning; Nonprehensile manipulation; Sample-efficient reinforcement learning; Residual learning",
+            "cluster": "cluster_2_abstracts.json, cluster_8_abstracts.json"
+          },
+          {
+            "id": "3.3",
+            "name": "Sim-to-Real Reinforcement Learning",
+            "what_is_covered": "Bridging simulation and real robots with vision-based pretraining and domain transfer.",
+            "typical_examples": "Sim-to-real transfer; Vision-based pretraining; Sim2real reinforcement learning",
+            "cluster": "cluster_4_abstracts.json, cluster_7_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Perception & Task Representation",
+        "subcategories": [
+          {
+            "id": "4.1",
+            "name": "3-D Scene Understanding for Manipulation",
+            "what_is_covered": "Perception pipelines that reconstruct objects and scenes for robust grasp planning.",
+            "typical_examples": "3D perception; Generalizable grasping",
+            "cluster": "cluster_3_abstracts.json"
+          },
+          {
+            "id": "4.2",
+            "name": "Vision-Language Action Models",
+            "what_is_covered": "Linking visual inputs and language to flexible manipulation policies.",
+            "typical_examples": "Vision-language-action models; Generalizable robot manipulation",
+            "cluster": "cluster_5_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Human-Guided Transfer & Teleoperation",
+        "subcategories": [
+          {
+            "id": "5.1",
+            "name": "Human-to-Robot Skill Transfer",
+            "what_is_covered": "Mapping human demonstrations onto robot hands via imitation or policy cloning.",
+            "typical_examples": "Human-to-Robot transfer; Dexterous manipulation",
+            "cluster": "cluster_11_abstracts.json"
+          },
+          {
+            "id": "5.2",
+            "name": "Teleoperation & Imitation Learning Interfaces",
+            "what_is_covered": "Real-time control of robot hands by humans to collect data or perform tasks.",
+            "typical_examples": "Teleoperation; Imitation learning",
+            "cluster": "cluster_14_abstracts.json"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,132 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Manipulator Hardware & Mechanisms",
+        "subcategories": [
+          {
+            "id": "1.1",
+            "name": "Robotic Hands",
+            "what_is_covered": "Rigid, multi-fingered end-effectors designed to replicate human hand dexterity.",
+            "typical_examples": "robotic hands; low-cost anthropomorphic hand design",
+            "cluster": "2,4,9"
+          },
+          {
+            "id": "1.2",
+            "name": "Soft & Continuum End-effectors",
+            "what_is_covered": "Deformable (soft grippers) or continuously bendable (continuum) manipulators that conform to objects.",
+            "typical_examples": "soft grippers; continuum manipulators",
+            "cluster": "6,0"
+          },
+          {
+            "id": "1.3",
+            "name": "Mobile Manipulators",
+            "what_is_covered": "Dexterous arms mounted on mobile bases to enlarge workspace reach.",
+            "typical_examples": "mobile manipulators",
+            "cluster": "14"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Sensing & Feedback",
+        "subcategories": [
+          {
+            "id": "2.1",
+            "name": "Tactile Sensing",
+            "what_is_covered": "Measurement of contact forces/pressure for perceiving object interaction.",
+            "typical_examples": "tactile sensing",
+            "cluster": "2,5,6"
+          },
+          {
+            "id": "2.2",
+            "name": "Shape Sensing",
+            "what_is_covered": "Real-time estimation of manipulator shape, particularly for continuum robots.",
+            "typical_examples": "shape sensing",
+            "cluster": "0"
+          },
+          {
+            "id": "2.3",
+            "name": "Haptic Feedback",
+            "what_is_covered": "Force/tactile cues returned to a human operator for enhanced perception.",
+            "typical_examples": "haptic feedback",
+            "cluster": "1"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Learning & Control Algorithms",
+        "subcategories": [
+          {
+            "id": "3.1",
+            "name": "Reinforcement Learning",
+            "what_is_covered": "Trial-and-error policy learning methods, including techniques for higher sample efficiency.",
+            "typical_examples": "reinforcement learning; sample efficiency; diffusion policies",
+            "cluster": "7,9,10,11,13"
+          },
+          {
+            "id": "3.2",
+            "name": "Imitation & Demonstration Learning",
+            "what_is_covered": "Skill acquisition from human demonstrations or generated datasets.",
+            "typical_examples": "imitation learning; human-to-robot transfer; data generation",
+            "cluster": "3,8,10"
+          },
+          {
+            "id": "3.3",
+            "name": "Model-based Optimization",
+            "what_is_covered": "Planning/control via physics-based optimization of multi-contact motions.",
+            "typical_examples": "trajectory optimization; multi-contact dynamics",
+            "cluster": "12"
+          },
+          {
+            "id": "3.4",
+            "name": "Multimodal / Vision-Language Policies",
+            "what_is_covered": "Policies that fuse visual, language and tactile inputs for manipulation.",
+            "typical_examples": "vision-language-action models; multimodal learning",
+            "cluster": "5,11"
+          },
+          {
+            "id": "3.5",
+            "name": "Learning-based Grasp & Control",
+            "what_is_covered": "Data-driven grasp planning and low-level control strategies.",
+            "typical_examples": "learning-based control; grasp planning",
+            "cluster": "4,14"
+          },
+          {
+            "id": "3.6",
+            "name": "Sim-to-Real Transfer",
+            "what_is_covered": "Techniques to deploy simulation-trained policies on real robots.",
+            "typical_examples": "sim-to-real transfer",
+            "cluster": "13"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Human–Robot Interaction",
+        "subcategories": [
+          {
+            "id": "4.1",
+            "name": "Teleoperation Systems",
+            "what_is_covered": "Remote manipulation where a human directly controls the robot, often with haptic feedback.",
+            "typical_examples": "teleoperation; teleoperation systems",
+            "cluster": "1,3"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Application Domain",
+        "subcategories": [
+          {
+            "id": "5.1",
+            "name": "Surgical Robotics",
+            "what_is_covered": "Use of dexterous, often continuum, manipulators for minimally invasive surgery.",
+            "typical_examples": "surgical robotics",
+            "cluster": "0"
+          }
+        ]
+      }
+    ]
+  }
