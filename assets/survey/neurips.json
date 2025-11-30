@@ -1,0 +1,188 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Learning Frameworks & Adaptation",
+        "subcategories": [
+          {
+            "id": "1.1",
+            "name": "Online / Bandit Learning",
+            "what_is_covered": "Sequential decision-making that minimises cumulative regret under uncertainty.",
+            "typical_examples": "multi-armed bandits, online learning, regret minimisation",
+            "cluster": "0"
+          },
+          {
+            "id": "1.2",
+            "name": "Reinforcement Learning & Multi-Agent Decision-Making",
+            "what_is_covered": "Trial-and-error control for single or multiple agents, including sample-efficient and offline variants.",
+            "typical_examples": "reinforcement learning, sample-efficient robustness, offline learning, multi-agent games",
+            "cluster": "2,5"
+          },
+          {
+            "id": "1.3",
+            "name": "Continual & Lifelong Learning",
+            "what_is_covered": "Learning a stream of tasks without catastrophic forgetting.",
+            "typical_examples": "continual learning, neural combinatorial optimisation, knowledge-graph reasoning",
+            "cluster": "12"
+          },
+          {
+            "id": "1.4",
+            "name": "Meta-Learning & Representation Transfer",
+            "what_is_covered": "Techniques that enable rapid adaptation to new domains or limited labels.",
+            "typical_examples": "distribution shift, uncertainty calibration, meta-learning, contrastive learning, domain adaptation, semi-supervised learning",
+            "cluster": "10,21"
+          },
+          {
+            "id": "1.5",
+            "name": "Federated & Distributed Optimisation",
+            "what_is_covered": "Decentralised learning with privacy or communication constraints.",
+            "typical_examples": "federated learning, differential privacy, distributed optimisation, optimisation algorithms, low-rank factorisation",
+            "cluster": "1,3"
+          },
+          {
+            "id": "1.6",
+            "name": "Causal & Decision-Focused Inference",
+            "what_is_covered": "Estimating cause-effect relations and optimising black-box objectives.",
+            "typical_examples": "causal inference, Bayesian optimisation, treatment effect estimation",
+            "cluster": "4"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Model Architectures & Representation Learning",
+        "subcategories": [
+          {
+            "id": "2.1",
+            "name": "Transformer Variants & Efficiency",
+            "what_is_covered": "Attention-based models and methods that scale them across data, tasks and modalities.",
+            "typical_examples": "transformer language models, retrieval-augmented NLP, few-shot learning, efficient transformers, sparse attention, model compression, vision transformers, neural architecture search, video transformers",
+            "cluster": "20,22,24,27"
+          },
+          {
+            "id": "2.2",
+            "name": "Graph & Equivariant Neural Networks",
+            "what_is_covered": "Architectures that respect graph structure or symmetry for relational and molecular data.",
+            "typical_examples": "graph neural networks, graph representation learning, scalability, equivariant neural networks, molecular representation learning, optimal transport",
+            "cluster": "18,19"
+          },
+          {
+            "id": "2.3",
+            "name": "Biologically Inspired Spiking Networks",
+            "what_is_covered": "Event-driven neural models with biologically plausible learning rules.",
+            "typical_examples": "spiking neural networks, biologically plausible learning, neural dynamics",
+            "cluster": "16"
+          },
+          {
+            "id": "2.4",
+            "name": "Neural ODEs & Physics-Informed Dynamics",
+            "what_is_covered": "Continuous-time networks and learning guided by physical laws.",
+            "typical_examples": "neural ODEs, physics-informed learning, dynamical systems",
+            "cluster": "15"
+          },
+          {
+            "id": "2.5",
+            "name": "Generative Image Models",
+            "what_is_covered": "Deep models that synthesise or super-resolve visual content.",
+            "typical_examples": "GANs, diffusion models, image generation, image synthesis, super-resolution, transformer-based models",
+            "cluster": "23,26"
+          },
+          {
+            "id": "2.6",
+            "name": "Neural Implicit 3-D Representations",
+            "what_is_covered": "Coordinate-based networks for continuous geometry and differentiable rendering.",
+            "typical_examples": "neural implicit representations, 3D scene reconstruction, differentiable rendering",
+            "cluster": "29"
+          },
+          {
+            "id": "2.7",
+            "name": "Neuro-Symbolic & Program-Centric Models",
+            "what_is_covered": "Hybrid systems combining neural perception with symbolic reasoning or code synthesis.",
+            "typical_examples": "program synthesis, code understanding, neuro-symbolic reasoning",
+            "cluster": "17"
+          },
+          {
+            "id": "2.8",
+            "name": "Probabilistic & Bayesian Modelling",
+            "what_is_covered": "Uncertainty-aware learning via probabilistic inference and kernel methods.",
+            "typical_examples": "Bayesian modelling, Gaussian processes, variational inference",
+            "cluster": "11"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Robustness, Privacy & Generalisation",
+        "subcategories": [
+          {
+            "id": "3.1",
+            "name": "Adversarial Robustness & Certification",
+            "what_is_covered": "Defences that improve or certify resistance to adversarial or noisy inputs.",
+            "typical_examples": "adversarial robustness, certified defences, noisy-label learning",
+            "cluster": "14"
+          },
+          {
+            "id": "3.2",
+            "name": "Data Poisoning & Backdoor Security",
+            "what_is_covered": "Detection and mitigation of malicious training data and privacy leakage.",
+            "typical_examples": "backdoor attacks, data poisoning, privacy leakage",
+            "cluster": "9"
+          },
+          {
+            "id": "3.3",
+            "name": "Implicit Regularisation & Generalisation Theory",
+            "what_is_covered": "Analyses of optimisation dynamics explaining generalisation in over-parameterised models.",
+            "typical_examples": "implicit-regularisation, generalisation-bounds, optimisation-dynamics",
+            "cluster": "6"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Evaluation, Alignment & Ethics",
+        "subcategories": [
+          {
+            "id": "4.1",
+            "name": "Large-Language-Model Alignment",
+            "what_is_covered": "Aligning generative language models with human preferences and controllable objectives.",
+            "typical_examples": "LLM alignment, controllable text generation, evaluation benchmarks",
+            "cluster": "13"
+          },
+          {
+            "id": "4.2",
+            "name": "Interpretability, Fairness & Debiasing",
+            "what_is_covered": "Tools to explain model behaviour and ensure equitable outcomes.",
+            "typical_examples": "interpretability, fairness, debiasing",
+            "cluster": "7"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Embodied & Multimodal Intelligence",
+        "subcategories": [
+          {
+            "id": "5.1",
+            "name": "Embodied Navigation & Language Grounding",
+            "what_is_covered": "Agents that perceive, act and communicate within physical or simulated environments.",
+            "typical_examples": "language grounding, embodied navigation, explainable reinforcement learning",
+            "cluster": "8"
+          },
+          {
+            "id": "5.2",
+            "name": "Object-Centric & Temporal Perception",
+            "what_is_covered": "Unsupervised discovery and tracking of entities across images or videos.",
+            "typical_examples": "object-centric segmentation, video tracking, self-supervised representation learning",
+            "cluster": "28"
+          },
+          {
+            "id": "5.3",
+            "name": "Vision-Language & Multimodal Reasoning",
+            "what_is_covered": "Models that align and fuse information across text, vision and other modalities.",
+            "typical_examples": "multimodal learning, cross-modal alignment, visual question answering",
+            "cluster": "25"
+          }
+        ]
+      }
+    ]
+  }
