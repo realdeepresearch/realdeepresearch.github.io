@@ -1,0 +1,104 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Representation & Alignment Across Embodiments",
+        "subcategories": [
+          {
+            "id": "1.1",
+            "name": "Self-supervised Visual Representation & Reward",
+            "what_is_covered": "Learning body-invariant visual features and reward functions from unlabeled video for transfer across robots.",
+            "typical_examples": "Cross-embodiment transfer; Video-based reward learning; Self-supervised representation pretraining",
+            "cluster": "cluster_0_abstracts.json"
+          },
+          {
+            "id": "1.2",
+            "name": "Vision-Language & Universal Action Spaces",
+            "what_is_covered": "Aligning vision, language and control signals into a common latent space usable by many embodiments.",
+            "typical_examples": "Cross-embodiment generalization; Vision-language-action models; Universal action representation",
+            "cluster": "cluster_8_abstracts.json"
+          },
+          {
+            "id": "1.3",
+            "name": "Navigation-Oriented Embodiment-Agnostic State Spaces",
+            "what_is_covered": "Creating state abstractions that enable different platforms to navigate and transfer policies, including sim-to-real.",
+            "typical_examples": "Embodiment-agnostic; Generalizable navigation; Sim2Real",
+            "cluster": "cluster_9_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Imitation & Motion Retargeting",
+        "subcategories": [
+          {
+            "id": "2.1",
+            "name": "Embodiment-Agnostic Imitation with Trajectory Control",
+            "what_is_covered": "Separating task intent from body details via trajectory-centric control for cross-robot imitation.",
+            "typical_examples": "Cross-Embodiment Imitation; Embodiment-Agnostic Representations; Trajectory-Centric Control",
+            "cluster": "cluster_1_abstracts.json"
+          },
+          {
+            "id": "2.2",
+            "name": "Motion Retargeting Across Morphologies",
+            "what_is_covered": "Warping recorded motions so robots with different kinematics can reproduce demonstrated skills.",
+            "typical_examples": "Cross-embodiment; Motion retargeting; Imitation learning",
+            "cluster": "cluster_2_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Generative & Diffusion Policy Models",
+        "subcategories": [
+          {
+            "id": "3.1",
+            "name": "Video-Based Generative Models",
+            "what_is_covered": "Using 3-D flow and video generation to predict transferable manipulation sequences.",
+            "typical_examples": "3D flow; Generative video models; Cross-embodiment manipulation",
+            "cluster": "cluster_3_abstracts.json"
+          },
+          {
+            "id": "3.2",
+            "name": "Multimodal Diffusion Policies",
+            "what_is_covered": "Diffusion-based action sampling that fuses multiple sensing streams for data-efficient transfer.",
+            "typical_examples": "Cross-Embodiment Generalization; Multimodal Diffusion Policies; Data-Efficient Manipulation",
+            "cluster": "cluster_6_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Morphology-Aware Reinforcement & Universal Policies",
+        "subcategories": [
+          {
+            "id": "4.1",
+            "name": "Latent-Space Alignment for Dexterous Manipulation",
+            "what_is_covered": "Aligning grasping data in a shared latent space to learn a single policy usable by varied hands.",
+            "typical_examples": "Morphology-aware grasping; Latent-space alignment; Universal dexterous policy",
+            "cluster": "cluster_5_abstracts.json"
+          },
+          {
+            "id": "4.2",
+            "name": "Morphology-Agnostic RL & Zero-Shot Transfer",
+            "what_is_covered": "Training policies that ignore morphology differences and transfer to unseen robots without finetuning.",
+            "typical_examples": "Cross-embodiment generalization; Morphology-agnostic reinforcement learning; Zero-shot transfer",
+            "cluster": "cluster_7_abstracts.json"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Data Collection & Human Demonstrations",
+        "subcategories": [
+          {
+            "id": "5.1",
+            "name": "Scalable Demonstration Gathering",
+            "what_is_covered": "Collecting large sets of human or teleoperated demonstrations spanning diverse embodiments.",
+            "typical_examples": "Cross-embodiment learning; Human demonstrations; Scalable data collection",
+            "cluster": "cluster_4_abstracts.json"
+          }
+        ]
+      }
+    ]
+  }
